@@ -5,7 +5,6 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject[] levelPrefab;
-    //[SerializeField] private Transform spawnPoint;
     private int currentLevelIndex = 0;
     private GameObject currentLevel;
 

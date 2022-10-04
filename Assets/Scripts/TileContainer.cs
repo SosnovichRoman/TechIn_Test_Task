@@ -74,5 +74,4 @@ public class TileContainer : MonoBehaviour
         yield return new WaitForSeconds(animationDuration);
         Destroy(tile.gameObject);
     }
-
 }
